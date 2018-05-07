@@ -3,3 +3,31 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#calendar {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.day {
+  border: solid 5px black;
+  height: 100%;
+}
+
+#top-nav {
+  height: 10vh;
+  background-color: blue;
+  color: white;
+}
+
+#top-labels {
+  height: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#month-label {
+  height: 5vh;
+}
